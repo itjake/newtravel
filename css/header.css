@@ -43,7 +43,7 @@
 
 .intro {
   padding-top: 220px;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/village.png") no-repeat center;
   background-size: cover;
 }
