@@ -5,11 +5,6 @@
   width: 100%;
 }
 
-.wrapper {
-  max-width: 1060px;
-  margin: 0 auto;
-}
-
 .wrapper__header {
   display: flex;
   flex-wrap: wrap;
@@ -137,6 +132,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 
@@ -177,5 +173,5 @@
 }
 
 .benefits__card__more:hover, .benefits__card__more:active, .benefits__card__more:focus {
-  color: blue;
+  opacity: .75;
 }

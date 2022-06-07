@@ -14,6 +14,32 @@ body {
   font-weight: normal;
 }
 
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.wrapper__full{
+  max-width: 1262px;
+  margin: 0 auto;
+}
+
+.section__title{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section__title::after{
+  display: block;
+  content: "";
+  width: 253px;
+  height: 3px;
+  background: #0e66da;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 img{
   max-width: 100%;
   height: auto;
