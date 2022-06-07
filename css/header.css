@@ -132,4 +132,50 @@
   background-color: #fff;
 }
 
-/* benefits start */
+.benefits__collections {
+  padding: 50px 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.benefits__card__title {
+  padding-top: 37px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.benefits__card__desk {
+  width: 307px;
+  margin-bottom: 27px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.benefits__card__more {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+}
+
+.benefits__card__more svg {
+  margin-left: 20px;
+}
+
+.benefits__card__more:hover, .benefits__card__more:active, .benefits__card__more:focus {
+  color: blue;
+}
