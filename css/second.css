@@ -25,10 +25,56 @@
   color: #006DFE;
 }
 
-.places__view__all svg{
+.places__view__all svg {
   margin-left: 20px;
 }
 
 .places__view__all:hover, .places__view__all:focus, .places__view__all:active {
   opacity: 0.75;
+}
+
+.places__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.places__card {
+  position: relative;
+}
+
+.places__card:hover, .places__card:active, .places__card:focus {
+  transform: scale(1.05);
+}
+
+.places__card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  /*background: rgba(21, 24, 36, 0.4);*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.places__card__title {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+
+.places__card__size__lg {
+  grid-column: span 3;
+}
+
+.places__card__pic {
+  width: 100%;
+  height: 354px;
+  object-fit: cover;
 }
