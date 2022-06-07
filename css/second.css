@@ -1,3 +1,7 @@
+.places{
+  margin-bottom: 130px;
+}
+
 .places__caption {
   display: flex;
   flex-wrap: wrap;
