@@ -43,7 +43,7 @@
 
 .intro {
   padding-top: 220px;
-  min-height: 100vh;
+  min-height: 135vh;
   background: url("../img/village.png") no-repeat center;
   background-size: cover;
 }
@@ -108,3 +108,28 @@
 .search__form__submit:hover, .search__form__submit:focus, .search__form__submit:active {
   background: #0e66da;
 }
+
+/* benefits start */
+
+.benefits__wrap {
+  max-width: 1262px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  box-shadow: 0px 2px 28px rgba(21, 24, 36, 0.150993);
+  position: relative;
+}
+
+.benefits__title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-80%);
+  background-color: #fff;
+}
+
+/* benefits start */
