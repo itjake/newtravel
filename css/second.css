@@ -52,7 +52,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  /*background: rgba(21, 24, 36, 0.4);*/
+  background: rgba(21, 24, 36, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -75,6 +75,20 @@
 
 .places__card__pic {
   width: 100%;
+  transition: .15s all;
+}
+
+.places__card__size__sm {
+  grid-column: span 2;
+}
+
+.places__card__pic__size__lg {
   height: 354px;
   object-fit: cover;
 }
+
+.places__card__pic__size__sm {
+  height: 283px;
+  object-fit: cover;
+}
+
