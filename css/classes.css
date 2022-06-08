@@ -19,17 +19,23 @@ body {
   margin: 0 auto;
 }
 
-.wrapper__full{
+.wrapper__full {
   max-width: 1262px;
   margin: 0 auto;
 }
 
-.section__title{
+.section__title {
   position: relative;
   padding-bottom: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;
 }
 
-.section__title::after{
+.section__title::after {
   display: block;
   content: "";
   width: 253px;
@@ -40,12 +46,12 @@ body {
   left: 0;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
