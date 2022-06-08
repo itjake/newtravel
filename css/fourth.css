@@ -14,6 +14,21 @@
 
 .top__card__pic {
   position: relative;
+  margin-bottom: 45px;
+}
+
+
+.top__card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 14px 25px;
 }
 
 .top__card__title {
@@ -23,12 +38,34 @@
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
+  margin: 0 auto 0 0;
 }
 
-.top__card__stats {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(21, 24, 36, 0.6);
+.top__card__likes {
+  margin-right: 14px;
+}
+
+.top__card__desc {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 31px;
+}
+
+.top__card__more {
+  padding: 12px 19px;
+  background: #006DFE;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.top__card__more:hover, .top__card__more:active, .top__card__more:focus {
+  background: #0e66da;
 }
