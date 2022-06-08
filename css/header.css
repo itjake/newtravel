@@ -3,6 +3,13 @@
   top: 0;
   left: 0;
   width: 100%;
+  transition: .2s linear;
+  padding-bottom: 30px;
+  z-index: 999;
+}
+
+.header__active{
+  background: #0E1D28;
 }
 
 .wrapper__header {
