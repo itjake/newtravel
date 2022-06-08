@@ -1,7 +1,34 @@
-.top{
+.top {
   margin-bottom: 86px;
 }
 
-.top__title{
+.top__title {
   margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
+.top__card__pic {
+  position: relative;
+}
+
+.top__card__title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.top__card__stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
 }
