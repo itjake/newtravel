@@ -17,11 +17,13 @@ body {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .wrapper__full {
   max-width: 1262px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .section__title {
