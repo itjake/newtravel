@@ -228,6 +228,10 @@
     transform: translateX(100%);
   }
 
+  .header__menu__active {
+    transform: translateX(0);
+  }
+
   .header__items {
     width: 100%;
     margin-right: 0;
