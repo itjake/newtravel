@@ -8,3 +8,131 @@
 @import "fourth.css";
 @import "fifth.css";
 @import "footer.css";
+
+@media screen and (max-width: 960px) {
+  .benefits__wrap {
+    margin-top: 50px;
+  }
+
+  .search__form__field {
+    margin-bottom: 25px;
+  }
+
+  .benefits__collections {
+    padding: 40px 15px;
+    grid-column-gap: 35px;
+  }
+
+  .benefits__title {
+    padding: 55px 15px;
+  }
+
+  .benefits__card__desk {
+    width: 200px;
+  }
+
+  .places__card__size__lg {
+    grid-column: span 6;
+  }
+
+  .places__card__size__sm {
+    grid-column: span 6;
+  }
+
+  .tours__tour {
+    grid-column-gap: 35px;
+  }
+
+  .tour__info {
+    padding-left: 0;
+  }
+
+  .tour__title {
+    margin-bottom: 15px;
+  }
+
+  .tour__desc {
+    margin-bottom: 15px;
+  }
+
+  .top__card {
+    grid-column: span 3;
+  }
+
+  .top__cards {
+    grid-column-gap: 25px;
+  }
+
+  .top__card__pic {
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__burger {
+    display: block;
+  }
+
+  .header__menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 10;
+    padding: 75px;
+    transform: translateX(100%);
+    transition: .2s all linear;
+
+  }
+
+  .header__menu__active {
+    transform: translateX(0);
+  }
+
+  .header__items {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__items:last-child {
+    margin-bottom: 0;
+  }
+
+  .header__link {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .header__nav__close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+  }
+
+  .header__nav__close__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+  }
+
+  .header__nav__close__line:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .header__nav__close__line:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+}

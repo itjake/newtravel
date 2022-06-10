@@ -8,13 +8,14 @@
 
 .top__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 57px;
 }
 
-.top__card{
+.top__card {
   display: flex;
   flex-direction: column;
+  grid-column: span 2;
 }
 
 .top__card__pic {
@@ -33,7 +34,7 @@
   left: 0;
   width: 100%;
   background: rgba(21, 24, 36, 0.6);
-  padding: 14px 25px;
+  padding: 13px 25px;
 }
 
 .top__card__title {
